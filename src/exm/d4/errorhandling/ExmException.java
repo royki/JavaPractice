@@ -8,7 +8,7 @@ public class ExmException {
 
 		// run time exception
 		try {
-			d[4] = 10;
+			d[3] = 10;
 			c = a / b;
 			return;
 		} catch (ArrayIndexOutOfBoundsException | ArithmeticException e) {

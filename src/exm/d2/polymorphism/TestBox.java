@@ -7,7 +7,5 @@ public class TestBox {
 		b1.calculateArea(4);
 		b1.calculateArea(3.2);
 		b1.calculateArea(3, 4);
-
 	}
-
 }

@@ -11,17 +11,18 @@ public class TestExmpStatic {
 	 */
 	public static void main(String[] args) {
 		ExpStatic obj1 = new ExpStatic();
+		System.out.println("Object -------------> 1");
 		obj1.staticMethod();
 		obj1.nonStaticMethod();
 		obj1.nonStaticMethod();
-		
-/*
- * we can call static data or static method using the class name
- * directly
- */
+
+		/*
+		 * we can call static data or static method using the class name
+		 * directly
+		 */
 		ExpStatic.staticMethod();
 
-		System.out.println("--------------------");
+		System.out.println("Object -------------> 2");
 		ExpStatic obj2 = new ExpStatic();
 		obj2.staticMethod();
 		obj2.staticMethod();

@@ -8,6 +8,7 @@ public class Employee {
 	// Here we can have getter and setter method to set and get the name and
 	// grade
 	// Another way to do the same thing using constructor
+
 	public Employee(String empName, int grade) {
 		this.empName = empName;
 		this.grade = grade;
@@ -16,13 +17,14 @@ public class Employee {
 	public int getGrade() {
 		return grade;
 	}
-	
-	/*public String getEmpInfo() {
-		return empName + "-> Grade: " + grade;
-	}*/
-	
+
+	/*
+	 * public String getEmpInfo() { return empName + "-> Grade: " + grade; }
+	 */
+
 	public String toString() {
-		return empName + "-> Grade: " + grade;
+		return empName + "-> Grade: " + grade + "\n";
+
 	}
-	
+
 }
