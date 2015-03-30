@@ -9,6 +9,7 @@ public class ExmList extends Object {
 		
 		//Non Generic List, can add any type of data
 		List list = new ArrayList();
+		list.add(1);
 		list.add("one");
 		list.add(0);
 		list.add(true);

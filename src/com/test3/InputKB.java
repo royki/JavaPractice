@@ -8,12 +8,13 @@ public class InputKB {
 	
 
 		int[] arr = {3,1,5,6};
+		//int[] arr1 = new int[8];
 		
 		Scanner sc = new Scanner(System.in);		
-		/*
+		
 		System.out.print("Enter how many entries :: ");		
 		int n =  sc.nextInt();
-		*/
+		System.out.print("Entered : " + n);
 		/* System.out.print("Enter your name :: ");
 		String st = sc.nextLine();
 		
@@ -32,7 +33,7 @@ public class InputKB {
 			avg += scores[i];			
 		}
 		System.out.println("Avg is :: " + avg);*/
-		System.out.println(arr[arr[0]]);
+		//System.out.println(arr[arr[0]]);
 	}
 	
 }
